@@ -6,6 +6,8 @@ import { useEffect, useState } from "react";
 import { btnTextPhoto, photoGalleryData, vipPhotosData } from "../../../../public/data/photo-gallery-data";
 import ServicesButton from "@/app/_components/all-services/services-button";
 import "./photoGallery.scss"
+import { useRouter } from "next/navigation";
+import { btnClickHandler } from "./helper";
 
 type Params = {
     params: {
@@ -15,28 +17,46 @@ type Params = {
 
 
 export default function PhotoGallery({ params }: Params) {
-    const allData = [...vipPhotosData.map(d => d.img), ...photoGalleryData.map(d => d.img)];
+    const [allData, setData] = useState<any>(null);
+    const [dialogOpen, setDialogOpen] = useState({
+      state: false,
+      img: null,
+      title: "",
+    });
+    const router = useRouter();
+    const id = decodeURIComponent(params.id)
+    const isDesktopScreen = useMediaQuery("(min-width: 1000px)");
+  
+    useEffect(() => {
+      if (id === "vip-photos") {
+        setData(vipPhotosData.map((d) => d.img));
+      } else {
+        setData(photoGalleryData.map(d => d.img));
+      }
+    }, [id]);
+  
 
     return (
-        <main className="Photo-Gallery">
-            {/* <div className="btn-container">
+        <main className="Photo-Gallery mt-5">
+            <div className="btn-container mb-2">
                 {btnTextPhoto.map((btn) => (
                     <ServicesButton
                         category={btn.category}
                         text={btn.text}
                         key={btn.text}
                         id={params.id}
-                        handleClick={() => {}
-                            // btnClickHandler(navigate, isDesktopScreen, btn.category)
+                        handleClick={() => 
+                            btnClickHandler(router, isDesktopScreen, btn.category)
                         }
                     />
                 ))}
-            </div> */}
+            </div>
 
             {allData &&
                 <ParallaxScrollSecond
                     images={allData}
-                    className="bg-[var(--primary-color)]"
+                    id={params.id}
+                    className=""
                 />
             }
         </main>

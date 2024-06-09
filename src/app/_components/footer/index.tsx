@@ -6,11 +6,17 @@ import Link from "next/link";
 import { footerData } from "../../../../public/data/footerData";
 import SocialMedia from "../social-media";
 import { contactData } from "../../../../public/data/contactData";
+import { usePathname } from "next/navigation";
 
 const Footer = () => {
   const handleLinkClickHandler = () => {
     window.scrollTo({ top: 0 });
   };
+  const pathname = usePathname();
+
+  if(pathname.includes("/photos")) {
+    return <></>
+  }
 
   return (
     <div className="footer-container">
