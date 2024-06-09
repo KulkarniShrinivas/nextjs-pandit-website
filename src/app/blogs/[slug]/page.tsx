@@ -17,9 +17,9 @@ export default async function Post({ params }: Params) {
   const content = await markdownToHtml(post.content || "");
 
   return (
-    <main className="mt-[70px]">
+    <main className="mt-[70px] pt-10 bg-white">
       <Container>
-        <article className="mb-32">
+        <article className="pb-32">
           <PostHeader
             title={post.title}
             coverImage={post.coverImage}

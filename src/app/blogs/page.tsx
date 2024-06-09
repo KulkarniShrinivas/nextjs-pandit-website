@@ -11,7 +11,7 @@ export default function Index() {
   const morePosts = allPosts.slice(1);
 
   return (
-    <main className="mt-[70px] bg-white">
+    <main className="mt-[70px] pt-5 bg-white">
       <Container>
         <HeroPost
           title={heroPost.title}
