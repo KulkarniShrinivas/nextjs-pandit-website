@@ -37,7 +37,6 @@ const PujaPage = ({params}: Params) => {
                 height: "300px",
                 position: "relative",
                 overflow: "hidden",
-
                 "@media (min-width: 1000px)": {
                   width: "400px",
                   height: "400px",
