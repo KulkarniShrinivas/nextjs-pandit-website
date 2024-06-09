@@ -20,11 +20,8 @@ const PujaPage = ({params}: Params) => {
   const [pujaData, setPujaData] = useState<any>(null);
   const id = decodeURIComponent(params.id);
 
-  console.log(id)
-
   useEffect(() => {
     const puja_data = servicesData.find((data) => {
-        console.log(data.title,id.toString(), data.title === id); 
         return data.title === id});
     setPujaData(puja_data);
   }, [id]);
@@ -62,7 +59,7 @@ const PujaPage = ({params}: Params) => {
 
           <div className="puja-text-container">
             <div className="puja-header">
-              <h1 className="puja-title">{pujaData?.title}</h1>
+              <h1 className="puja-title font-bold text-3xl">{pujaData?.title}</h1>
               <div className="puja-btn">
                 <CustomButton onClick={() => whatsappData()} text="Book Now" />
               </div>
@@ -77,13 +74,13 @@ const PujaPage = ({params}: Params) => {
 
               <section className="puja-benefits-container">
                 {pujaData?.benefits?.title && (
-                  <h4 className="puja-header">{pujaData?.benefits?.title}</h4>
+                  <h4 className="font-semibold">{pujaData?.benefits?.title}</h4>
                 )}
-                <ul className="puja-benefits">
+                <ul>
                   {pujaData?.benefits?.points?.map((data: any, index: number) => (
-                    <li className="puja-benefits-list" key={data.title + index}>
-                      <h5 className="puja-benefits-title">{data.title}</h5>
-                      <p className="puja-benefits-desc">{data.description}</p>
+                    <li className="py-2" key={data.title + index}>
+                      <h5 className="font-semibold">{data.title}</h5>
+                      <p>{data.description}</p>
                     </li>
                   ))}
                 </ul>

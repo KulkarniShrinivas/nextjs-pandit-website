@@ -40,7 +40,7 @@ const AllPujaServices = ({ params }: Params) => {
     return (
         <div className="all-puja-services">
             <div className="all-puja-services-headers">
-                <h1 className="heading">Puja Services</h1>
+                <h1 className="heading font-bold mt-10">Puja Services</h1>
                 <p className="para">
                     Explore the complete range of puja services we provide
                 </p>

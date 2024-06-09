@@ -3,6 +3,6 @@ export const whatsappData = () => {
   
     var whatsappUrl = "https://api.whatsapp.com/send?phone=" + phoneNumber;
   
-    window.location.href = whatsappUrl;
+    window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
   };
   
