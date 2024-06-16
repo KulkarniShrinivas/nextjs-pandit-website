@@ -8,8 +8,7 @@ const ImgContainer = ({ img, title, width }: any) => {
   console.log(width);
   return (
     <div className="img">
-      <Image loading="lazy" width={width} src={img} alt={title} />
-      <Typography
+       <Typography
         sx={{
           width,
           textAlign: "center",
@@ -32,13 +31,13 @@ const AboutUsContent = () => {
           <h2 className="language-heading">
             Languages Known by <span>Pandit Ji</span>
           </h2>
-          <div className="container">
-            {aboutUsPageData.content.languages.map((language) => (
-              <div className="tilt">
-                <h4>{language}</h4>
-              </div>
-            ))}
-          </div>
+            <div className="container">
+          {aboutUsPageData.content.languages.map((language, index) => (
+            <div key={index} className="tilt">
+              <h4>{language}</h4>
+            </div>
+          ))}
+        </div>
         </div>
         <div className="about-us-left">
           <p className="text">

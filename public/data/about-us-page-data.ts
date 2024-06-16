@@ -71,7 +71,7 @@ export const aboutUsPageData = {
       img: duniya_Vijay,
       imgTitle: "Duniya Vijay, Famous Kannada Actor",
     },
-    differentStates:
+    ritualsList:
       "Furthermore, I perform Navagraha Japa Homa, Kadali Vivaha, Kumbh Vivaha, Pitru Shanti, Upanayana, Vivaha (Marriage), Kuja Rahu Sandhi Shanti, Vinyak Shanti, Kalasapra Shanti, Udaka Shanti, Durga Deepa Namaskara, Mahamrityunjaya Havan, Durga Saptashati Parayana, Vatasavitri Pooja, Kula Shanti Homa, and all types of Pitru Karya and Shraddha. Rest assured, each of these rituals is executed in accordance with time-honored customs and traditions under my guidance.",
     languages: [
       "Kannada",
