@@ -2,6 +2,7 @@ import React from "react";
 import "./aboutus.scss";
 import ownerData from "./ownerData";
 import Link from "next/link";
+import ColorButton from "../ui/color-btn";
 
 const AboutUs = () => {
   return (
@@ -28,7 +29,9 @@ const AboutUs = () => {
         <p>{ownerData.languageDescription}</p>
       </div>
       <Link className="learn-more-link" href="about-us">
-        learn more about my journey...
+        <ColorButton>
+          learn more about my journey...
+        </ColorButton>
       </Link>
     </section>
   );

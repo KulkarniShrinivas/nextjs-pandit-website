@@ -48,6 +48,11 @@ export const btnTextPhoto = [
   { text: "All Photos", category: "all-photos" },
 ];
 
+export const heroSectionImages = [
+  PanditforpujaG,
+  PanditforpujaD
+]
+
 export const vipPhotosData = [
   //imp
   { img: PanditforpujaG, title: "", rows: 3, cols: 2 },
