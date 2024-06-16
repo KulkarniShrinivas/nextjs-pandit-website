@@ -49,7 +49,7 @@ export const btnTextPhoto = [
 ];
 
 export const heroSectionImages = [
-  PanditforpujaG,
+  
   PanditforpujaD
 ]
 
