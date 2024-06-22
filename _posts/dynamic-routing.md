@@ -1,11 +1,11 @@
 ---
 title: "Top 10 Hindu Rituals and Their Significance: How to Prepare and What to Expect"
 excerpt: "Hindu rituals form the backbone of spiritual and cultural practices in Hinduism. Each ceremony holds deep significance and is designed to purify, bless, and bring prosperity. This guide explores the top ten Hindu rituals, their meanings, and how to prepare for them"
-coverImage: "/assets/blog/dynamic-routing/cover.jpg"
+coverImage: "https://res.cloudinary.com/dckh0xu7s/image/upload/v1718528222/TopRitualsBlog_qnngog.jpg"
 date: "2024-06-16T05:35:07.322Z"
 author:
   name: Manoj Kulkarni
-  picture: "/assets/blog/authors/jj.jpeg"
+  picture: "https://res.cloudinary.com/dckh0xu7s/image/upload/v1718524212/pandit-ji_jmc2gl.jpg"
 ogImage:
   url: "/assets/blog/authors/jj.jpeg"
 ---
