@@ -44,13 +44,18 @@ import PanditforpujaT from "../assets/VIP-photos/panditforpujaT.webp";
 import PanditforpujaU from "../assets/VIP-photos/panditforpujaU.webp";
 
 export const btnTextPhoto = [
+
   { text: "VIP Photos", category: "vip-photos" },
   { text: "All Photos", category: "all-photos" },
+  
 ];
 
 export const heroSectionImages = [
   
-  PanditforpujaD
+  PanditforpujaD,
+  PanditforpujaS,
+  PanditforpujaP 
+
 ]
 
 export const vipPhotosData = [
