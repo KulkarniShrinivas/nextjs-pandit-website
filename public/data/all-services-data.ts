@@ -1,61 +1,53 @@
-import GaneshImage from "../assets/Ganapatipuja.webp";
-import Satyanarayan from "../assets/satyanarayanpuja.jpg";
-import grihapravesh from "../assets/Grihapravesh.webp";
-import Marriage from "../assets/marriageforpandit.webp";
-import udakshanti from "../assets/udakshanti.webp";
-import Durgasaptashati from "../assets/Durgasaptashatiparayana.webp";
-import Newoffice from "../assets/Newofficepooja.webp";
-import Mahalaxmipuja from "../assets/Mahalaxmipuja.webp";
-import Rudrabhishek from "../assets/Rudrabhishekapuja.jpeg";
-import Durgadeepa from "../assets/durgadeepaa.webp";
-import Navratri from "../assets/NavratriPuja.webp";
-import Newvehicle from "../assets/newvehiclepuja.webp";
-import Boomi from "../assets/bhoomipuja.webp";
-import Namakarana from "../assets/NamakaranaPuja.webp";
-import YagnopavitSanskar from "../assets/YagnopavitSanskar.webp";
+const GaneshImage = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/Ganapatipuja.webp";
+const Satyanarayan = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/satyanarayanpuja.jpg";
+const grihapravesh = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/Grihapravesh.webp";
+const Marriage = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/marriageforpandit.webp";
+const udakshanti = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/udakshanti.webp";
+const Durgasaptashati = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/Durgasaptashatiparayana.webp";
+const Newoffice = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/Newofficepooja.webp";
+const Mahalaxmipuja = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/Mahalaxmipuja.webp";
+const Rudrabhishek = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/Rudrabhishekapuja.jpeg";
+const Durgadeepa = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/durgadeepaa.webp";
+const Navratri = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/NavratriPuja.webp";
+const Newvehicle = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/newvehiclepuja.webp";
+const Boomi = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/bhoomipuja.webp";
+const Namakarana = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/NamakaranaPuja.webp";
+const YagnopavitSanskar = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/YagnopavitSanskar.webp";
 
+// Festival pujas
+const GanapathiSthapana = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/GanapathiSthapana.webp";
+const DiwaliLakshmiPuja = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/DiwaliLakshmiPuja.webp";
+const NavratriPuja = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/NavratriPuja.webp";
 
-//Festival pujas
+// Homa and havan
+const GanaHoma = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/ganahoma.webp";
+const ChandiHavan = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/chandihomahavan.webp";
+const SudarshanHavan = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/sudarshanhavan.webp";
+const NavagrahaHavan = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/Navagrahahavan.webp";
+const MrityunjayaHavan = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/Mahamrityunjayahavan.webp";
+const DurgaHoma = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/durgahoma.webp";
+const LaxmiKuberaHavan = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/LaxmiKuberaHavan.webp";
+const LakshmiNarayanaHoma = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/Lakshminarayanahoma.webp";
+const PavamanaHoma = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/pavamanahoma.webp";
+const DhanvantariHoma = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/dhanvantarihoma.webp";
+const MoolaNakshatraShanti = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/moolanakshatrashantiaa.webp";
+const Bhadrakalihoma = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/bhadrakalihoma.webp";
+const LakshmiNarasimhaHoma = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/Lakshminarasimhahoma.webp";
+const KalaBhairavaHoma = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/Kalabhairavahoma.webp";
 
-import GanapathiSthapana from "../assets/GanapathiSthapana.webp";
-import DiwaliLakshmiPuja from "../assets/DiwaliLakshmiPuja.webp";
-import NavratriPuja from "../assets/NavratriPuja.webp";
-
-//Homaand havan
-
-import GanaHoma from "../assets/ganahoma.webp";
-import ChandiHavan from "../assets/chandihomahavan.webp";
-import SudarshanHavan from "../assets/sudarshanhavan.webp";
-import NavagrahaHavan from "../assets/Navagrahahavan.webp";
-import MrityunjayaHavan from "../assets/Mahamrityunjayahavan.webp";
-import DurgaHoma from "../assets/durgahoma.webp";
-import LaxmiKuberaHavan  from "../assets/LaxmiKuberaHavan.webp";
-import LakshmiNarayanaHoma from "../assets/Lakshminarayanahoma.webp";
-import PavamanaHoma from "../assets/pavamanahoma.webp";
-import DhanvantariHoma from "../assets/dhanvantarihoma.webp";
-import MoolaNakshatraShanti  from "../assets/moolanakshatrashantiaa.webp";
-import Bhadrakalihoma  from "../assets/bhadrakalihoma.webp";
-import LakshmiNarasimhaHoma from "../assets/Lakshminarasimhahoma.webp";
-import KalaBhairavaHoma from "../assets/Kalabhairavahoma.webp";
-
-
-//Parihara
-
-import KalaSarpaDoshaNivarana from "../assets/Kalasarpadoshanivarana.webp";
-import MangalDoshaNivarana from "../assets/KadaliVivaha.webp";
-import ShatruSamharaHoma from "../assets/Shatrusamharahoma.webp";
-import SwayamvaraParvathiHoma from "../assets/SwayamvaraParvathihoma.webp";
-import ShukraAdityaSandhiShanti from "../assets/ShukraAdityaSandhiShanti.webp";
-import DrishtiDurgaHoma from "../assets/DrishtiDurgaHoma.webp";
-import DhanistaPanchakaShanti  from "../assets/DhanistaPanchakaShanti.webp";
-import KalathraDoshaNivarana from "../assets/KalathraDoshaNivarana.webp";
-import KujaRahuSandhiShanti from "../assets/KujaRahuSandhiShanti.webp"
-import KumbhaVivaha  from "../assets/KumbhaVivaha.webp";
-import JananaNakshatraShanti from "../assets/JananaNakshatraShanti.webp"
-import SantanaGopalaHoma from "../assets/SantanaGopalaHoma.webp";
-
-
-
+// Parihara
+const KalaSarpaDoshaNivarana = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/Kalasarpadoshanivarana.webp";
+const MangalDoshaNivarana = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/KadaliVivaha.webp";
+const ShatruSamharaHoma = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/Shatrusamharahoma.webp";
+const SwayamvaraParvathiHoma = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/SwayamvaraParvathihoma.webp";
+const ShukraAdityaSandhiShanti = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/ShukraAdityaSandhiShanti.webp";
+const DrishtiDurgaHoma = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/DrishtiDurgaHoma.webp";
+const DhanistaPanchakaShanti = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/DhanistaPanchakaShanti.webp";
+const KalathraDoshaNivarana = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/KalathraDoshaNivarana.webp";
+const KujaRahuSandhiShanti = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/KujaRahuSandhiShanti.webp";
+const KumbhaVivaha = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/KumbhaVivaha.webp";
+const JananaNakshatraShanti = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/JananaNakshatraShanti.webp";
+const SantanaGopalaHoma = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/SantanaGopalaHoma.webp";
 
 
 export const btnText = [

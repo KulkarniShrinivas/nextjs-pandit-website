@@ -20,6 +20,8 @@ const CardTilt = (props: any) => {
             src={props.img}
             loading="lazy"
             alt={props.title}
+            width={props?.width || "180"}
+            height={props?.width || "180"}
             className="service-img"
           />
           <div className="gradient-overlay"></div>

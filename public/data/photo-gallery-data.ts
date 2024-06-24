@@ -1,47 +1,47 @@
 //All photos
 
-import Hanuman from "../assets/gallery/hanuman.jpg";
-import marathipanditA from "../assets/gallery/marathipanditA.webp";
-import marathipanditB from "../assets/gallery/marathipanditB.webp";
-import marathipanditC from "../assets/gallery/marathipanditC.webp";
-import marathipanditD from "../assets/gallery/marathipanditD.webp";
-import marathipanditE from "../assets/gallery/marathipanditE.webp";
-import marathipanditF from "../assets/gallery/marathipanditF.webp";
-import marathipanditG from "../assets/gallery/marathipanditG.webp";
-import marathipanditH from "../assets/gallery/marathipanditH.webp";
-import marathipanditI from "../assets/gallery/marathipanditI.webp";
-import marathipanditJ from "../assets/gallery/marathipanditJ.webp";
-import marathipanditK from "../assets/gallery/marathipanditK.webp";
-import marathipanditL from "../assets/gallery/marathipanditL.webp";
-import marathipanditM from "../assets/gallery/marathipanditM.webp";
-import marathipanditN from "../assets/gallery/marathipanditN.webp";
-import marathipanditO from "../assets/gallery/marathipanditO.webp";
-import marathipanditP from "../assets/gallery/marathipanditP.webp";
-import PanditforpujaA from "../assets/gallery/panditforpujaA.webp";
-import PanditforpujaM from "../assets/gallery/panditforpujaM.webp";
+const Hanuman = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/gallery/hanuman.jpg";
+const marathipanditA = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/gallery/marathipanditA.webp";
+const marathipanditB = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/gallery/marathipanditB.webp";
+const marathipanditC = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/gallery/marathipanditC.webp";
+const marathipanditD = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/gallery/marathipanditD.webp";
+const marathipanditE = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/gallery/marathipanditE.webp";
+const marathipanditF = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/gallery/marathipanditF.webp";
+const marathipanditG = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/gallery/marathipanditG.webp";
+const marathipanditH = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/gallery/marathipanditH.webp";
+const marathipanditI = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/gallery/marathipanditI.webp";
+const marathipanditJ = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/gallery/marathipanditJ.webp";
+const marathipanditK = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/gallery/marathipanditK.webp";
+const marathipanditL = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/gallery/marathipanditL.webp";
+const marathipanditM = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/gallery/marathipanditM.webp";
+const marathipanditN = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/gallery/marathipanditN.webp";
+const marathipanditO = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/gallery/marathipanditO.webp";
+const marathipanditP = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/gallery/marathipanditP.webp";
+const PanditforpujaA = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/gallery/panditforpujaA.webp";
+const PanditforpujaM = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/gallery/panditforpujaM.webp";
 
 
 //VIP Photos
 
-import RSS from "../assets/VIP-photos/RSS.jpg"
-import PanditforpujaB from "../assets/VIP-photos/panditforpujaB.webp";
-import PanditforpujaC from "../assets/VIP-photos/panditforpujaC.webp";
-import PanditforpujaD from "../assets/VIP-photos/panditforpujaD.webp";
-import PanditforpujaF from "../assets/VIP-photos/panditforpujaF.webp";
-import PanditforpujaG from "../assets/VIP-photos/panditforpujaG.webp";
-import PanditforpujaH from "../assets/VIP-photos/panditforpujaH.webp";
-import PanditforpujaI from "../assets/VIP-photos/panditforpujaI.webp";
-import PanditforpujaK from "../assets/VIP-photos/panditforpujaK.webp";
-import PanditforpujaL from "../assets/VIP-photos/panditforpujaL.webp";
+const RSS = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/VIP-photos/RSS.jpg"
+const PanditforpujaB = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/VIP-photos/panditforpujaB.webp";
+const PanditforpujaC = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/VIP-photos/panditforpujaC.webp";
+const PanditforpujaD = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/VIP-photos/panditforpujaD.webp";
+const PanditforpujaF = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/VIP-photos/panditforpujaF.webp";
+const PanditforpujaG = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/VIP-photos/panditforpujaG.webp";
+const PanditforpujaH = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/VIP-photos/panditforpujaH.webp";
+const PanditforpujaI = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/VIP-photos/panditforpujaI.webp";
+const PanditforpujaK = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/VIP-photos/panditforpujaK.webp";
+const PanditforpujaL = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/VIP-photos/panditforpujaL.webp";
 
-import PanditforpujaN from "../assets/VIP-photos/panditforpujaN.webp";
-import PanditforpujaO from "../assets/VIP-photos/panditforpujaO.webp";
-import PanditforpujaP from "../assets/VIP-photos/panditforpujaP.webp";
-import PanditforpujaQ from "../assets/VIP-photos/panditforpujaQ.webp";
-import PanditforpujaR from "../assets/VIP-photos/panditforpujaR.webp";
-import PanditforpujaS from "../assets/VIP-photos/panditforpujaS.webp";
-import PanditforpujaT from "../assets/VIP-photos/panditforpujaT.webp";
-import PanditforpujaU from "../assets/VIP-photos/panditforpujaU.webp";
+const PanditforpujaN = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/VIP-photos/panditforpujaN.webp";
+const PanditforpujaO = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/VIP-photos/panditforpujaO.webp";
+const PanditforpujaP = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/VIP-photos/panditforpujaP.webp";
+const PanditforpujaQ = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/VIP-photos/panditforpujaQ.webp";
+const PanditforpujaR = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/VIP-photos/panditforpujaR.webp";
+const PanditforpujaS = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/VIP-photos/panditforpujaS.webp";
+const PanditforpujaT = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/VIP-photos/panditforpujaT.webp";
+const PanditforpujaU = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/VIP-photos/panditforpujaU.webp";
 
 export const btnTextPhoto = [
 

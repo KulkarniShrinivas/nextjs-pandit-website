@@ -5,7 +5,7 @@ import "./custom-button.css";
 const CustomButton = ({
   text,
   isContained = true,
-  onClick = () => console.log("clicked"),
+  onClick = () => console.log("clicked")
 }: {text: string, isContained?: boolean, onClick?: () => void}) => {
   return (
     <>

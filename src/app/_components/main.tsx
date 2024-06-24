@@ -20,7 +20,7 @@ const Main = () => {
     return () => clearTimeout(intervalId);
   }, []);
 
-  const images = heroSectionImages.map(d => d.src);
+  const images = heroSectionImages;
 
   return (
     <main className="mt-[70px]">

@@ -1,13 +1,13 @@
-import panditImg from "../assets/Manoj_Kulkarni_Purohit.jpg";
-import gokarnaTemple from "../assets/about-us/gokarna_temple.jpg";
-import pashuTemple from "../assets/about-us/Pashupatinath_Temple.jpg";
-import kashiTemple from "../assets/about-us/Kashi_Vishwanath_Temple_Banaras.jpg";
-import dkShiv from "../assets/VIP-photos/panditforpujaI.webp";
-import shivRaj from "../assets/VIP-photos/panditforpujaG.webp";
-import formerPm from "../assets/VIP-photos/panditforpujaS.webp";
-import nagaArjun from "../assets/VIP-photos/panditforpujaN.webp";
-import Naga_chaitanya from "../assets/VIP-photos/panditforpujaP.webp";
-import duniya_Vijay from "../assets/VIP-photos/panditforpujaH.webp";
+const panditImg = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719130231/assets/Manoj_Kulkarni_Purohit.jpg";
+const gokarnaTemple = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139128/about-us/gokarna_temple.jpg";
+const pashuTemple = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139128/about-us/Pashupatinath_Temple.jpg";
+const kashiTemple = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139128/about-us/Kashi_Vishwanath_Temple_Banaras.jpg";
+const dkShiv = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/VIP-photos/panditforpujaI.webp";
+const shivRaj = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/VIP-photos/panditforpujaG.webp";
+const formerPm = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/VIP-photos/panditforpujaS.webp";
+const nagaArjun = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/VIP-photos/panditforpujaN.webp";
+const Naga_chaitanya = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/VIP-photos/panditforpujaP.webp";
+const duniya_Vijay = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/VIP-photos/panditforpujaH.webp";
 
 export const aboutUsPageData = {
   main: {

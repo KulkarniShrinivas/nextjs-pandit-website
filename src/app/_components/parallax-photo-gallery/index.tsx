@@ -2,7 +2,7 @@
 import { useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import { motion } from "framer-motion";
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 import { cn } from "@/utils/cn";
 import { btnTextPhoto } from "../../../../public/data/photo-gallery-data";
 import ServicesButton from "../all-services/services-button";
@@ -12,7 +12,7 @@ export const ParallaxScrollSecond = ({
   id,
   className,
 }: {
-  images: StaticImageData[];
+  images: string[];
   id: string;
   className?: string;
 }) => {

@@ -3,11 +3,11 @@
 import React from "react";
 import "./style.scss";
 import { whatsappData } from "@/lib/whatsapp";
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 
 type Props = {
   poojaTitle: string;
-  src: StaticImageData;
+  src: string;
   handleViewMoreClick: () => void;
 }
 
@@ -18,7 +18,7 @@ const Card = ({ poojaTitle, src, handleViewMoreClick }: Props) => {
         <h2 onClick={handleViewMoreClick}>{poojaTitle}</h2>
       </header>
       <div className="card-img">
-        <Image src={src} loading="lazy" alt={poojaTitle} />
+        <Image src={src} width={250} height={250} loading="lazy" alt={poojaTitle} />
       </div>
 
       <div className="tags">

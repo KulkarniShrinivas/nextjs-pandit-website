@@ -8,6 +8,12 @@ const ImgContainer = ({ img, title, width }: any) => {
   console.log(width);
   return (
     <div className="img">
+      <Image
+        className="image"
+        src={img}
+        alt={title}
+        width={width}
+      />
        <Typography
         sx={{
           width,
@@ -22,7 +28,7 @@ const ImgContainer = ({ img, title, width }: any) => {
 };
 
 const AboutUsContent = () => {
-  const width = "300px";
+  const width = "500";
 
   return (
     <div className="about-us-content">

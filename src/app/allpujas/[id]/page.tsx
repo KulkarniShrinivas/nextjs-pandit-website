@@ -7,6 +7,7 @@ import ServiceCard from "@/app/_components/all-services/service-card/service-car
 import { btnText, servicesData } from "../../../../public/data/all-services-data";
 import { useRouter } from "next/navigation";
 import ServicesButton from "@/app/_components/all-services/services-button";
+import { BackgroundGradientCard } from "@/app/_components/ui/card-gradient";
 
 type Params = {
     params: {
