@@ -5,14 +5,14 @@ import { aboutUsPageData } from "../../../../../public/data/about-us-page-data";
 import Image from "next/image";
 
 const ImgContainer = ({ img, title, width }: any) => {
-  console.log(width);
   return (
     <div className="img">
       <Image
         className="image"
         src={img}
         alt={title}
-        width={width}
+        width={300}
+        height={300}
       />
        <Typography
         sx={{

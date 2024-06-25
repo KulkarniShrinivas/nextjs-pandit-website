@@ -8,9 +8,6 @@ import { useMediaQuery } from "@mui/material";
 const AboutUsMain = () => {
   const isMobileScreen = useMediaQuery("(max-width: 1000px)");
 
-  console.log({isMobileScreen});
-
-
   return (
     <div className="about-us-main">
       <ParticlesBackground />
