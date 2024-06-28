@@ -66,7 +66,7 @@ const PujaPage = ({ params }: Params) => {
               containerClassName="col-span-1 lg:col-span-2 h-full bg-pink-800 min-h-[500px] lg:min-h-[300px]"
               className=""
             >
-              <section className="puja-desc text-white">
+              <section className="puja-desc text-white text-center">
                 {pujaData?.description.map((data: any, index: number) => (
                   <p key={data + index}>{data}</p>
                 ))}
@@ -74,7 +74,7 @@ const PujaPage = ({ params }: Params) => {
             </WobbleCard>
 
             <WobbleCard containerClassName="flex col-span-1 lg:col-span-3 bg-blue-900 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
-              <div className="animation-container text-white">
+              <div className="animation-container text-white text-center">
                 <section className="puja-benefits-container">
                   {pujaData?.benefits?.title && (
                     <h4 className="font-semibold">{pujaData?.benefits?.title}</h4>
