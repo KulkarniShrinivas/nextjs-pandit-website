@@ -10,7 +10,6 @@ import { WobbleCard } from "@/app/_components/ui/wobble-card";
 import ColorButton from "@/app/_components/ui/color-btn";
 import CustomButton from "@/app/_components/custom-button";
 
-
 type Params = {
   params: {
     id: string;
