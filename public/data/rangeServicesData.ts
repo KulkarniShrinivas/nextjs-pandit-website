@@ -1,7 +1,7 @@
-const pujahome = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/range_of_services/Allpujaservices.webp";
-const tiltCard2Img = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/range_of_services/card_tilt_2.jpg";
-const Vastuhoma = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/range_of_services/vastuhome.jpeg";
-const tiltCard4Img = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/range_of_services/card_tilt_4.jpg";
+const pujahome = "https://res.cloudinary.com/dckh0xu7s/image/upload/f_auto,q_auto/v1719139575/range_of_services/Allpujaservices.webp";
+const tiltCard2Img = "https://res.cloudinary.com/dckh0xu7s/image/upload/f_auto,q_auto/v1719139575/range_of_services/card_tilt_2.jpg";
+const Vastuhoma = "https://res.cloudinary.com/dckh0xu7s/image/upload/f_auto,q_auto/v1719139575/range_of_services/vastuhome.jpeg";
+const tiltCard4Img = "https://res.cloudinary.com/dckh0xu7s/image/upload/f_auto,q_auto/v1719139575/range_of_services/card_tilt_4.jpg";
 
 export const rangeData = [
   {

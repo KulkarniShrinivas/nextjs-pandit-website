@@ -27,7 +27,7 @@ const CardList = () => {
   return (
     <>
       <section className="card-list-section">
-        <h2 className="card-list-heading">Recommended Pujas</h2>
+        <h2 className="card-list-heading">Most Popular Pujas</h2>
         <CustomButton
           text={"See All Puja Services"}
           onClick={() => router.push("/allpujas/pujas")}

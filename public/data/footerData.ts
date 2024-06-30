@@ -1,6 +1,6 @@
 
 export const footerData = {
-  logo: "https://res.cloudinary.com/dckh0xu7s/image/upload/v1717906159/logo_bcbcuz.png",
+  logo: "https://res.cloudinary.com/dckh0xu7s/image/upload/f_auto,q_auto/v1717906159/logo_bcbcuz.png",
   footer_details: ` Welcome to Marathi Sarva Puja Services, India's premier online
           platform for hassle-free puja bookings. Serving major metropolitan
           cities across India, including Bangalore, Chennai, Hyderabad, and

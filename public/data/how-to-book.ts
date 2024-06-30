@@ -1,7 +1,7 @@
-const select1 = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/how_to_book/select_1.png";
-const select2 = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/how_to_book/select_2.png";
-const select3 = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/how_to_book/select_3.png";
-const select4 = "https://res.cloudinary.com/dckh0xu7s/image/upload/w_auto,q_auto/v1719139575/how_to_book/select_4.png";
+const select1 = "https://res.cloudinary.com/dckh0xu7s/image/upload/f_auto,q_auto/v1719139575/how_to_book/select_1.png";
+const select2 = "https://res.cloudinary.com/dckh0xu7s/image/upload/f_auto,q_auto/v1719139575/how_to_book/select_2.png";
+const select3 = "https://res.cloudinary.com/dckh0xu7s/image/upload/f_auto,q_auto/v1719139575/how_to_book/select_3.png";
+const select4 = "https://res.cloudinary.com/dckh0xu7s/image/upload/f_auto,q_auto/v1719139575/how_to_book/select_4.png";
 
 export const howToBookTimeline: any[] = [
   {

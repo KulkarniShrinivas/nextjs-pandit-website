@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Lato } from "next/font/google";
 import "./globals.css";
 import Navbar from "./_components/navbar";
 import Footer from "./_components/footer";
+import Head from "next/head";
 
-const inter = Inter({ subsets: ["latin"] });
+const lato = Lato({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
   title: "Pandit in Bangalore Book Verified Pandits Online for Puja/Homa or Havan - Marathisarvapooja",
@@ -18,11 +19,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <Head>
+        <link rel="icon" href="./favicon.png" type="image/png" sizes="any" />
+        <meta name="robots" content="all" />
+      </Head>
+      <body className={lato.className}>
         <Navbar />
         {children}
         <Footer />
-        </body>
+      </body>
     </html>
   );
 }

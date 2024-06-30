@@ -59,7 +59,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="footer-right">
-      MarathisarvaPooja © 2023-2024 All Rights Reserved
+        MarathisarvaPooja © 2023-2024 All Rights Reserved
       </p>
     </div>
   );

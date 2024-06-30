@@ -7,9 +7,9 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 cloudinary.v2.config({
-  cloud_name: "dckh0xu7s",
-  api_key: "811936265895271",
-  api_secret: "zNoC_nGM9ezrGebsej_M7kicxqY",
+  cloud_name: "CLOUD_NAME",
+  api_key: "API_KEY",
+  api_secret: "API_SECRET",
   secure: true,
 });
 
