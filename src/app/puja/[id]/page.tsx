@@ -9,6 +9,7 @@ import Image from "next/image";
 import { WobbleCard } from "@/app/_components/ui/wobble-card";
 import ColorButton from "@/app/_components/ui/color-btn";
 import CustomButton from "@/app/_components/custom-button";
+import { whatsappData } from "@/lib/whatsapp";
 
 type Params = {
   params: {
@@ -58,6 +59,7 @@ const PujaPage = ({ params }: Params) => {
               </Tilt>
               <CustomButton 
                 text="Book Now"
+                onClick={() => whatsappData()}
               />
             </div>
 
