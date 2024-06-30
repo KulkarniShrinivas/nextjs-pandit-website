@@ -8,8 +8,8 @@ const TermsAndConditions = () => {
         <h1>Terms and Conditions</h1>
         <p>
           BY USING OR ACCESSING MARATHISARVAPOOJA WEBSITE, YOU AGREE TO THE
-          FOLLOWING TERMS AND CONDITIONS (THE "AGREEMENT") GOVERNING YOUR USE OF
-          MARATHISARVAPOOJA.COM (THE "SERVICE"). THIS AGREEMENT APPLIES TO YOUR
+          FOLLOWING TERMS AND CONDITIONS (THE &quot;AGREEMENT&quot;) GOVERNING YOUR USE OF
+          MARATHISARVAPOOJA.COM (THE &quot;SERVICE&quot;). THIS AGREEMENT APPLIES TO YOUR
           USE OF THE SERVICE. BY ACCESSING AND USING THE SERVICE, YOU CONFIRM
           YOUR AGREEMENT TO THESE TERMS.
         </p>
@@ -60,7 +60,7 @@ const TermsAndConditions = () => {
             </li>
             <li>
               2. Either party can terminate this Agreement with at least thirty
-              (30) days' notice before the current License Term ends.
+              (30) days&apos; notice before the current License Term ends.
             </li>
           </ul>
         </p>
@@ -72,7 +72,7 @@ const TermsAndConditions = () => {
           opinions from service providers may exist. Use your discretion before
           relying on predictions or religious beliefs. MarathiSarvaPooja is not
           liable for claims related to prescriptions, advice, or remedies
-          provided by service providers. Predictions reflect service providers'
+          provided by service providers. Predictions reflect service providers&apos;
           views; the website owner disclaims responsibility as per applicable
           laws.
           <br />
@@ -80,8 +80,7 @@ const TermsAndConditions = () => {
         </p>
         <p>
           <em>
-            {" "}
-            <b>Note that </b> these terms may change; review them to stay
+            &nbsp;<b>Note that </b> these terms may change; review them to stay
             informed about your rights when using the website.
           </em>
         </p>
