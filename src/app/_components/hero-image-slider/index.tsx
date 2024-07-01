@@ -6,7 +6,7 @@ import { whatsappData } from "@/lib/whatsapp";
 
 export function ImagesSliderDemo({images,btnName, heading }: {images: string[],btnName: string, heading: React.ReactNode}) {
   return (
-    <ImagesSlider className="h-[40rem]" images={images}>
+    <ImagesSlider className="h-[20rem] md:h-[40rem]" images={images}>
       <motion.div
         initial={{
           opacity: 0,
